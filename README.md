@@ -20,9 +20,9 @@ To debug your program, connect the JTAG and ground pins to the ESP32 boards, e.g
 | ESP-prog   | ESP-32 |
 | ---------- | ------ |
 | TDI        | GPIO12 |
-| TDO        | GPIO15 |
 | TCK        | GPIO13 |
 | TMS        | GPIO14 |
+| TDO        | GPIO15 |
 | GND        | GND    |
 
 Add the following lines to the *platformio.ini* file
